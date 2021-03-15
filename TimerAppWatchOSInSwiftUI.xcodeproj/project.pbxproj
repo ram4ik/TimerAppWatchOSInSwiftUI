@@ -115,6 +115,9 @@
 		95CB2EEB25FF5AD100578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				95CB2F0A25FF5B0D00578B63 /* Utils */,
+				95CB2F0925FF5B0700578B63 /* Views */,
+				95CB2F0825FF5AFC00578B63 /* Models */,
 				95CB2EEC25FF5AD100578B63 /* ContentView.swift */,
 				95CB2EEE25FF5AD100578B63 /* TimerAppWatchOSInSwiftUIApp.swift */,
 				95CB2EF025FF5AD100578B63 /* ComplicationController.swift */,
@@ -131,6 +134,27 @@
 				95CB2EF525FF5AD100578B63 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95CB2F0825FF5AFC00578B63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95CB2F0925FF5B0700578B63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95CB2F0A25FF5B0D00578B63 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
