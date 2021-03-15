@@ -14,13 +14,13 @@ struct TimerCell: View {
     var body: some View {
         HStack {
             NavigationLink(
-                destination: Text("TimerView"),
+                destination: TimerView(timerModel: leftTimer),
                 label: {
                     dialView(title: leftTimer.timeTitle, subtitle: leftTimer.unitTitle)
                 }).buttonStyle(PlainButtonStyle())
             
             NavigationLink(
-                destination: Text("TimerView"),
+                destination: TimerView(timerModel: rightTimer),
                 label: {
                     dialView(title: rightTimer.timeTitle, subtitle: rightTimer.unitTitle)
                 }).buttonStyle(PlainButtonStyle())
