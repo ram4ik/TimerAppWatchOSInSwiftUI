@@ -25,7 +25,7 @@ struct TimerCell: View {
                     dialView(title: rightTimer.timeTitle, subtitle: rightTimer.unitTitle)
                 }).buttonStyle(PlainButtonStyle())
         }.foregroundColor(Color.white.opacity(0.3))
-        .frame(height: 100)
+        .frame(height: WKInterfaceDevice.current().screenBounds.width * 0.5)
     }
     
     private func dialView(title: String, subtitle: String) -> some View {
