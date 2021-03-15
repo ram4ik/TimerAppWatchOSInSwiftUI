@@ -14,7 +14,7 @@ struct TickView: View {
             Rectangle()
                 .fill(Color.primary)
                 .opacity(tick % 5 == 0 ? 1 : 0.4)
-                .frame(width: 0.5, height: tick % 5 == 0 ? 7 : 4)
+                .frame(width: 0.5, height: tick % 5 == 0 ? 7 : 5)
             Spacer()
         }.rotationEffect(Angle.degrees((Double(tick) / 60) * 360))
     }

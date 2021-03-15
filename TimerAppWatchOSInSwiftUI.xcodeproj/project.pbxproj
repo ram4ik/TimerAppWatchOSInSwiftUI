@@ -17,6 +17,7 @@
 		95CB2EF625FF5AD100578B63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CB2EF525FF5AD100578B63 /* Preview Assets.xcassets */; };
 		95CB2F0C25FF62EE00578B63 /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB2F0B25FF62EE00578B63 /* TickView.swift */; };
 		95CB2F1125FF655700578B63 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB2F1025FF655700578B63 /* TimerModel.swift */; };
+		95CB2F1625FF67A100578B63 /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB2F1525FF67A100578B63 /* TimerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		95CB2EF725FF5AD100578B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95CB2F0B25FF62EE00578B63 /* TickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickView.swift; sourceTree = "<group>"; };
 		95CB2F1025FF655700578B63 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		95CB2F1525FF67A100578B63 /* TimerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				95CB2F0B25FF62EE00578B63 /* TickView.swift */,
+				95CB2F1525FF67A100578B63 /* TimerCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				95CB2F1125FF655700578B63 /* TimerModel.swift in Sources */,
 				95CB2EF125FF5AD100578B63 /* ComplicationController.swift in Sources */,
 				95CB2F0C25FF62EE00578B63 /* TickView.swift in Sources */,
+				95CB2F1625FF67A100578B63 /* TimerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
