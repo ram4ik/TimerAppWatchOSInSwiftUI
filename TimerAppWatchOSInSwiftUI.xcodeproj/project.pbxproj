@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95CB2EDC25FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 95CB2EDB25FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95CB2EE125FF5AD000578B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CB2EE025FF5AD000578B63 /* Assets.xcassets */; };
+		95CB2EE825FF5AD000578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 95CB2EE725FF5AD000578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95CB2EED25FF5AD100578B63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB2EEC25FF5AD100578B63 /* ContentView.swift */; };
+		95CB2EEF25FF5AD100578B63 /* TimerAppWatchOSInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB2EEE25FF5AD100578B63 /* TimerAppWatchOSInSwiftUIApp.swift */; };
+		95CB2EF125FF5AD100578B63 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB2EF025FF5AD100578B63 /* ComplicationController.swift */; };
+		95CB2EF325FF5AD100578B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CB2EF225FF5AD100578B63 /* Assets.xcassets */; };
+		95CB2EF625FF5AD100578B63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CB2EF525FF5AD100578B63 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95CB2EDD25FF5ACE00578B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95CB2ED125FF5ACE00578B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95CB2EDA25FF5ACE00578B63;
+			remoteInfo = "TimerAppWatchOSInSwiftUI WatchKit App";
+		};
+		95CB2EE925FF5AD000578B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95CB2ED125FF5ACE00578B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95CB2EE625FF5AD000578B63;
+			remoteInfo = "TimerAppWatchOSInSwiftUI WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95CB2EFD25FF5AD100578B63 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				95CB2EE825FF5AD000578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CB2F0125FF5AD100578B63 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				95CB2EDC25FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		95CB2ED725FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerAppWatchOSInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CB2EDB25FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimerAppWatchOSInSwiftUI WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CB2EE025FF5AD000578B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95CB2EE225FF5AD000578B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CB2EE725FF5AD000578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TimerAppWatchOSInSwiftUI WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CB2EEC25FF5AD100578B63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95CB2EEE25FF5AD100578B63 /* TimerAppWatchOSInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerAppWatchOSInSwiftUIApp.swift; sourceTree = "<group>"; };
+		95CB2EF025FF5AD100578B63 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		95CB2EF225FF5AD100578B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95CB2EF525FF5AD100578B63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95CB2EF725FF5AD100578B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95CB2EE425FF5AD000578B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95CB2ED025FF5ACE00578B63 = {
+			isa = PBXGroup;
+			children = (
+				95CB2EDF25FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI WatchKit App */,
+				95CB2EEB25FF5AD100578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension */,
+				95CB2ED825FF5ACE00578B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95CB2ED825FF5ACE00578B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95CB2ED725FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI.app */,
+				95CB2EDB25FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI WatchKit App.app */,
+				95CB2EE725FF5AD000578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95CB2EDF25FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				95CB2EE025FF5AD000578B63 /* Assets.xcassets */,
+				95CB2EE225FF5AD000578B63 /* Info.plist */,
+			);
+			path = "TimerAppWatchOSInSwiftUI WatchKit App";
+			sourceTree = "<group>";
+		};
+		95CB2EEB25FF5AD100578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				95CB2EEC25FF5AD100578B63 /* ContentView.swift */,
+				95CB2EEE25FF5AD100578B63 /* TimerAppWatchOSInSwiftUIApp.swift */,
+				95CB2EF025FF5AD100578B63 /* ComplicationController.swift */,
+				95CB2EF225FF5AD100578B63 /* Assets.xcassets */,
+				95CB2EF725FF5AD100578B63 /* Info.plist */,
+				95CB2EF425FF5AD100578B63 /* Preview Content */,
+			);
+			path = "TimerAppWatchOSInSwiftUI WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		95CB2EF425FF5AD100578B63 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95CB2EF525FF5AD100578B63 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95CB2ED625FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CB2F0225FF5AD100578B63 /* Build configuration list for PBXNativeTarget "TimerAppWatchOSInSwiftUI" */;
+			buildPhases = (
+				95CB2ED525FF5ACE00578B63 /* Resources */,
+				95CB2F0125FF5AD100578B63 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95CB2EDE25FF5ACE00578B63 /* PBXTargetDependency */,
+			);
+			name = TimerAppWatchOSInSwiftUI;
+			productName = TimerAppWatchOSInSwiftUI;
+			productReference = 95CB2ED725FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		95CB2EDA25FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CB2EFE25FF5AD100578B63 /* Build configuration list for PBXNativeTarget "TimerAppWatchOSInSwiftUI WatchKit App" */;
+			buildPhases = (
+				95CB2ED925FF5ACE00578B63 /* Resources */,
+				95CB2EFD25FF5AD100578B63 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95CB2EEA25FF5AD000578B63 /* PBXTargetDependency */,
+			);
+			name = "TimerAppWatchOSInSwiftUI WatchKit App";
+			productName = "TimerAppWatchOSInSwiftUI WatchKit App";
+			productReference = 95CB2EDB25FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		95CB2EE625FF5AD000578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CB2EFA25FF5AD100578B63 /* Build configuration list for PBXNativeTarget "TimerAppWatchOSInSwiftUI WatchKit Extension" */;
+			buildPhases = (
+				95CB2EE325FF5AD000578B63 /* Sources */,
+				95CB2EE425FF5AD000578B63 /* Frameworks */,
+				95CB2EE525FF5AD000578B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimerAppWatchOSInSwiftUI WatchKit Extension";
+			productName = "TimerAppWatchOSInSwiftUI WatchKit Extension";
+			productReference = 95CB2EE725FF5AD000578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95CB2ED125FF5ACE00578B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					95CB2ED625FF5ACE00578B63 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					95CB2EDA25FF5ACE00578B63 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					95CB2EE625FF5AD000578B63 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 95CB2ED425FF5ACE00578B63 /* Build configuration list for PBXProject "TimerAppWatchOSInSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95CB2ED025FF5ACE00578B63;
+			productRefGroup = 95CB2ED825FF5ACE00578B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95CB2ED625FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI */,
+				95CB2EDA25FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI WatchKit App */,
+				95CB2EE625FF5AD000578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95CB2ED525FF5ACE00578B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CB2ED925FF5ACE00578B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CB2EE125FF5AD000578B63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CB2EE525FF5AD000578B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CB2EF625FF5AD100578B63 /* Preview Assets.xcassets in Resources */,
+				95CB2EF325FF5AD100578B63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95CB2EE325FF5AD000578B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CB2EEF25FF5AD100578B63 /* TimerAppWatchOSInSwiftUIApp.swift in Sources */,
+				95CB2EED25FF5AD100578B63 /* ContentView.swift in Sources */,
+				95CB2EF125FF5AD100578B63 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95CB2EDE25FF5ACE00578B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95CB2EDA25FF5ACE00578B63 /* TimerAppWatchOSInSwiftUI WatchKit App */;
+			targetProxy = 95CB2EDD25FF5ACE00578B63 /* PBXContainerItemProxy */;
+		};
+		95CB2EEA25FF5AD000578B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95CB2EE625FF5AD000578B63 /* TimerAppWatchOSInSwiftUI WatchKit Extension */;
+			targetProxy = 95CB2EE925FF5AD000578B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95CB2EF825FF5AD100578B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95CB2EF925FF5AD100578B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95CB2EFB25FF5AD100578B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TimerAppWatchOSInSwiftUI WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TimerAppWatchOSInSwiftUI WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.TimerAppWatchOSInSwiftUI.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		95CB2EFC25FF5AD100578B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TimerAppWatchOSInSwiftUI WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TimerAppWatchOSInSwiftUI WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.TimerAppWatchOSInSwiftUI.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		95CB2EFF25FF5AD100578B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				IBSC_MODULE = TimerAppWatchOSInSwiftUI_WatchKit_Extension;
+				INFOPLIST_FILE = "TimerAppWatchOSInSwiftUI WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.TimerAppWatchOSInSwiftUI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		95CB2F0025FF5AD100578B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				IBSC_MODULE = TimerAppWatchOSInSwiftUI_WatchKit_Extension;
+				INFOPLIST_FILE = "TimerAppWatchOSInSwiftUI WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.TimerAppWatchOSInSwiftUI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		95CB2F0325FF5AD100578B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.TimerAppWatchOSInSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		95CB2F0425FF5AD100578B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.TimerAppWatchOSInSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95CB2ED425FF5ACE00578B63 /* Build configuration list for PBXProject "TimerAppWatchOSInSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CB2EF825FF5AD100578B63 /* Debug */,
+				95CB2EF925FF5AD100578B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CB2EFA25FF5AD100578B63 /* Build configuration list for PBXNativeTarget "TimerAppWatchOSInSwiftUI WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CB2EFB25FF5AD100578B63 /* Debug */,
+				95CB2EFC25FF5AD100578B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CB2EFE25FF5AD100578B63 /* Build configuration list for PBXNativeTarget "TimerAppWatchOSInSwiftUI WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CB2EFF25FF5AD100578B63 /* Debug */,
+				95CB2F0025FF5AD100578B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CB2F0225FF5AD100578B63 /* Build configuration list for PBXNativeTarget "TimerAppWatchOSInSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CB2F0325FF5AD100578B63 /* Debug */,
+				95CB2F0425FF5AD100578B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95CB2ED125FF5ACE00578B63 /* Project object */;
+}
