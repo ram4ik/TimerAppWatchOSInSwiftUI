@@ -19,6 +19,7 @@
 		95CB2F1125FF655700578B63 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB2F1025FF655700578B63 /* TimerModel.swift */; };
 		95CB2F1625FF67A100578B63 /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB2F1525FF67A100578B63 /* TimerCell.swift */; };
 		95CB2F1B25FF6C5B00578B63 /* TimeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB2F1A25FF6C5B00578B63 /* TimeSelectionView.swift */; };
+		95CB2F2025FF6DE000578B63 /* View+Glow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB2F1F25FF6DE000578B63 /* View+Glow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		95CB2F1025FF655700578B63 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
 		95CB2F1525FF67A100578B63 /* TimerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
 		95CB2F1A25FF6C5B00578B63 /* TimeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectionView.swift; sourceTree = "<group>"; };
+		95CB2F1F25FF6DE000578B63 /* View+Glow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Glow.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		95CB2F0A25FF5B0D00578B63 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				95CB2F1F25FF6DE000578B63 /* View+Glow.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95CB2EEF25FF5AD100578B63 /* TimerAppWatchOSInSwiftUIApp.swift in Sources */,
+				95CB2F2025FF6DE000578B63 /* View+Glow.swift in Sources */,
 				95CB2EED25FF5AD100578B63 /* ContentView.swift in Sources */,
 				95CB2F1125FF655700578B63 /* TimerModel.swift in Sources */,
 				95CB2F1B25FF6C5B00578B63 /* TimeSelectionView.swift in Sources */,
